@@ -12,7 +12,7 @@
     "start": "concurrently \"npm run watch\" \"npm run lite\"",
     "lite": "lite-server",
     "watch": "npm-watch",
-    "compile": "cat src/*.css | cleancss -o dist/ess.min.css"
+    "compile": "cat src/*.css | postcss --use autoprefixer -c postcss-conf.json | cleancss -o dist/ess.min.css"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,9 @@
     "concurrently": "latest",
     "lite-server": "latest",
     "clean-css": "latest",
-    "npm-watch": "latest"
+    "npm-watch": "latest",
+    "postcss-cli": "latest",
+    "autoprefixer": "latest"
   },
   "homepage": "https://github.com/essence-tech/style#readme"
 }
