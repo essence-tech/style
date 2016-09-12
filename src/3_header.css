@@ -1,0 +1,35 @@
+header.top {
+    padding: 0 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+}
+
+header.top nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header.top nav > * {
+    margin-right: 1rem;
+}
+
+header.top nav img {
+    border-radius: 50%;
+    margin: 0 .5rem;
+    height: 3rem;
+}
+
+header.top nav *.logo {
+    height: 5rem;
+    width: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
