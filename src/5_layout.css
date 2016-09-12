@@ -2,10 +2,19 @@ main {
     padding: 1rem;
 }
 
+section.container {
+    margin-top: 2rem;
+    padding: 0 15rem;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.row.center {
+    justify-content: center;
 }
 
 .col {
@@ -24,11 +33,31 @@ main {
     margin: 0;
 }
 
+.col.collapse {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 80rem) {
+    section.container {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 60rem) {
+    section.container {
+        padding: 0 5rem;
+    }
+}
+
 @media (max-width: 40rem) {
+    section.container {
+        padding: 0;
+    }
     .row {
         flex-direction: column;
     }
     .col, .col:first-child, .col:last-child, .col:only-child {
         margin: 0;
+        width: 100%;
     }
 }
