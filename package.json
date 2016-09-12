@@ -12,7 +12,7 @@
     "start": "concurrently \"npm run watch\" \"npm run lite\"",
     "lite": "lite-server",
     "watch": "npm-watch",
-    "compile": "cat src/*.css | postcss --use autoprefixer -c postcss-conf.json | cleancss -o dist/ess.min.css"
+    "compile": "cat src/*.css | postcss --use autoprefixer -c postcss-conf.json | cleancss --s1 -o dist/ess.min.css"
   },
   "repository": {
     "type": "git",
