@@ -16,6 +16,18 @@ section.container {
 .row.center {
     justify-content: center;
 }
+.row.end {
+    justify-content: flex-end;
+}
+.row.start {
+    justify-content: flex-start;
+}
+.row.around {
+    justify-content: space-around;
+}
+.row.between {
+    justify-content: space-between;
+}
 
 .col {
     flex: 1 0 auto;

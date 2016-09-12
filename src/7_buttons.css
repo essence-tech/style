@@ -11,12 +11,14 @@
     align-items: center;
     justify-content: center;
     user-select: none;
+    float: left;
 }
 .btn i, button i {
     margin-right: .25rem;
 }
 .btn.loading, button.loading {
     background: transparent;
+    cursor: not-allowed;
 }
 .btn.loading:before, button.loading:before {
     position: absolute;
