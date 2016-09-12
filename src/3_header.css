@@ -33,3 +33,18 @@ header.top nav *.logo {
     background-size: contain;
 }
 
+@media (max-width: 40rem) {
+    header.top {
+        flex-direction: column;
+    }
+
+    header.top nav {
+        flex-direction: column;
+    }
+
+    header.top nav > *, header.top nav img {
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+}
+

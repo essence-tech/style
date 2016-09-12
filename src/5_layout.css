@@ -23,3 +23,12 @@ main {
 .col:only-child {
     margin: 0;
 }
+
+@media (max-width: 40rem) {
+    .row {
+        flex-direction: column;
+    }
+    .col, .col:first-child, .col:last-child, .col:only-child {
+        margin: 0;
+    }
+}
