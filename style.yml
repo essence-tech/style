@@ -1,0 +1,5 @@
+style:
+  image: docker.repo/essence-style
+  restart: always
+  ports:
+    - 7070:80

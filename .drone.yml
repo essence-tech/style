@@ -1,0 +1,26 @@
+publish:
+  docker:
+    registry: docker.repo
+    repo: essence-style
+    insecure: true
+    when:
+      branch:
+        - master
+
+deploy:
+  rsync:
+    host: ess-lon-apps-002.essence.internal.com
+    user: drone
+    port: 22
+    source: ./style.yml
+    target: /home/drone
+    commands:
+      - echo "Restarting style"
+      - docker-compose -f style.yml pull
+      - docker-compose -f style.yml stop
+      - docker-compose -f style.yml rm -f -v
+      - docker-compose -f style.yml up -d --force-recreate
+      - echo "Done"
+    when:
+      branch:
+        - master
