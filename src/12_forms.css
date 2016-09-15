@@ -1,0 +1,22 @@
+input {
+    padding: .5rem;
+    min-width: 15rem;
+}
+
+input[type="date"] {
+    margin: 0;
+    padding: .3rem;
+}
+
+form.form label {
+    width: 8rem;
+    display: inline-block;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+form.form div {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
