@@ -1,0 +1,22 @@
+table.table {
+    width: 100%;
+}
+
+table.table th {
+    padding: .5rem;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+table.table td {
+    padding: .5rem;
+}
+
+table.table tbody tr:hover {
+    background: #ddd;
+}
+
+table.table.striped tr:nth-child(even) {
+    background: #ccc;
+}
+
