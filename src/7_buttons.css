@@ -12,6 +12,8 @@
     justify-content: center;
     user-select: none;
     float: left;
+    text-decoration: none;
+    color: #fff;
 }
 .btn i, button i {
     margin-right: .25rem;
