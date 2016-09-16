@@ -1,6 +1,8 @@
 input {
     padding: .5rem;
     min-width: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 input[type="date"] {
