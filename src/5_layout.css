@@ -45,6 +45,16 @@ section.container {
     margin: 0;
 }
 
+.col.center {
+    text-align: center;
+}
+.col.end {
+    text-align: right;
+}
+.col.start {
+    text-align: left;
+}
+
 .col.collapse {
     flex: 0 0 auto;
 }

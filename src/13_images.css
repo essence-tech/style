@@ -1,0 +1,20 @@
+img.portrait {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+img.portrait.small {
+    width: 2rem;
+    height: 2rem;
+}
+
+img.portrait.medium {
+    width: 5rem;
+    height: 5rem;
+}
+
+img.portrait.large {
+    width: 10rem;
+    height: 10rem;
+}
