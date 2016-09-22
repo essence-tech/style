@@ -1,0 +1,25 @@
+.notify {
+    width: 100%;
+    background: white;
+    padding: 1rem;
+    margin: .5rem 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.info {
+    background: #4DE1FF;
+}
+
+.warn {
+    background: #FFDE4D;
+}
+
+.error {
+    background: #FF4D4D;
+    color: white;
+}
+
+.success {
+    background: #A6FF4D;
+}
