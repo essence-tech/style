@@ -1,4 +1,4 @@
-input, textarea {
+input, textarea, select {
     box-sizing: border-box;
     padding: .5rem;
     font-size: 1rem;
@@ -7,6 +7,7 @@ input, textarea {
     border-radius: 3px;
     font-family: inherit;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: auto;
 }
 
 input[type="date"] {
@@ -14,7 +15,7 @@ input[type="date"] {
     padding: .3rem;
 }
 
-input:not([type="checkbox"]):not([type="range"]):focus, textarea:focus {
+input:not([type="checkbox"]):not([type="range"]):focus, textarea:focus, select:focus {
     outline: none !important;
     border: 1px solid transparent;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -48,7 +49,7 @@ form.form div {
         text-align: left;
         width: 100%;
     }
-    form.form input, form.form textarea {
+    form.form input, form.form textarea, form.form select {
         width: 100%;
     }
 }
