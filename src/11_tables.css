@@ -14,7 +14,7 @@ table.table td {
 }
 
 table.table tbody tr:hover {
-    background: #dedede;
+    background: rgba(0,0,0.02);
 }
 
 table.table.striped tr:nth-child(even) {
