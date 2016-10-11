@@ -13,11 +13,10 @@ table.table td {
     vertical-align: middle;
 }
 
-table.table tbody tr:hover {
-    background: #ddd;
+table.table tbody tr:hover, table.table.striped tr:nth-child(even):hover {
+    background: rgba(0,0,0,.02);
 }
 
 table.table.striped tr:nth-child(even) {
-    background: #ccc;
+    background: rgba(0,0,0,.1);
 }
-
