@@ -59,6 +59,9 @@ section.container {
 .col.collapse {
     flex: 0 0 auto;
 }
+.col.table {
+    display: inline-table;
+}
 
 @media (max-width: 80rem) {
     section.container {
