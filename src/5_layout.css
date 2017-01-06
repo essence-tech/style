@@ -84,6 +84,7 @@ section.container {
     }
     .col, .col:first-child, .col:last-child, .col:only-child {
         margin: 0;
+        margin-bottom: .5rem;
         width: 100%;
     }
 }
