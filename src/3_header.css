@@ -19,6 +19,12 @@ header.top nav > * {
     margin-right: 1rem;
 }
 
+header.top nav img {
+    border-radius: 50%;
+    margin: 0 .5rem;
+    height: 3rem;
+}
+
 header.top nav *.logo {
     height: 5rem;
     width: 10rem;
