@@ -31,7 +31,7 @@ form.form label {
     margin-right: 1rem;
 }
 
-form.form div {
+form.form div[role="group"] {
     display: flex;
     align-items: center;
     margin: .5rem 0;
